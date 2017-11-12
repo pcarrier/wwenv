@@ -1,0 +1,9 @@
+[Unit]
+Requires=mnt-data.mount
+After=mnt-data.mount
+
+[Mount]
+What=overlay
+Where=/home
+Type=overlay
+Options=lowerdir=/mnt/base/home,upperdir=/mnt/data/home/upper,workdir=/mnt/data/home/workdir

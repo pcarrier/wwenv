@@ -1,0 +1,14 @@
+*.o
+*~
+*.swp
+atlassian-ide-plugin.xml
+dependency-reduced-pom.xml
+/build/
+/target/
+/.classpath/
+/.gradle/
+/.project/
+/.settings/
+.vscode/
+/.release/
+out/

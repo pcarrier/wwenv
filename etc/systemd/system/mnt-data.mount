@@ -1,0 +1,5 @@
+[Mount]
+What=/dev/disk/by-label/data
+Where=/mnt/data
+Type=ext4
+Options=noatime
